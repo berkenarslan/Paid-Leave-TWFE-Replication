@@ -1,1 +1,10 @@
+# Data
 
+This folder contains the raw and cleaned datasets used in the analysis.
+
+Due to file size limitations, the full CPS microdata (`cps_00001.dta`) is not included here.  
+You can access or replicate the data extract from [IPUMS-CPS](https://cps.ipums.org/cps/) using the following variables:
+
+- `statefip`, `sex`, `empstat`, `nchild`, `yngch`, `year`
+
+Alternatively, please contact the author for access to cleaned `.dta` files.
