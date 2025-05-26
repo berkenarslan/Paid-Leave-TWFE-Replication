@@ -39,7 +39,13 @@ This project replicates and extends the findings of Rossin-Slater et al. (2011),
 
 ## 📈 Sample Output
 
-![Histogram of Treated Group](output/hist_employed_treated.png)
+**Treated Group Employment Distribution (Post-2004):**
+
+![Employment Distribution](output/hist_employed_treated.png)
+
+**Employment Rate Trends (1999–2010):**
+
+![Employment Trends](output/twfe_employment_trends.png)
 
 ---
 
@@ -59,6 +65,12 @@ This project replicates and extends the findings of Rossin-Slater et al. (2011),
 - Data cleaning, regression modelling, and visualization via `.do` files
 
 ---
+## 🧾 Regression Log Summary
+
+See full regression command output and coefficient tables in [output/twfe_log.txt](output/twfe_log.txt)  
+Key regression: `areg employed treat_post i.year, absorb(statefip) cluster(statefip)`  
+→ Found a **-13.9 pp** treatment effect on employment among treated mothers post-2004 (p < 0.001)
+
 
 ## ✍️ Author
 
