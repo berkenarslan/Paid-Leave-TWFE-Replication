@@ -20,18 +20,17 @@ This project replicates and extends the findings of Rossin-Slater et al. (2011),
 
 ## 📁 Project Structure
 
-Paid-Leave-TWFE-Replication/
-├── code/
-│ ├── TWFE Regression Analysis.do
-│ ├── Staggered DiD.do
-│ └── TWFE GR.do
-├── data/
+-**Paid-Leave-TWFE-Replication code**
+  -TWFE Regression Analysis.do
+  -Staggered DiD.do
+ - TWFE GR.do
+- **Data**:  
 │ ├── cps_00001.dta
 │ └── TWEF regression findings.dta
-├── output/
+─ **output**:
 │ ├── hist_employed_treated.png
 │ ├── twfe_log.txt
-├── docs/
+─ **docs**
 │ ├── Project Essay.pdf
 │ └── Project question 2025.pdf
 
